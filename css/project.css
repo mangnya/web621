@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+.project-page {
+  padding: 60px 20px;
+  background-color: #f9f8fb;
+}
+
+.logo h2 {
+  color: #68507b; /* 메인컬러 중 하나 */
+  font-size: 28px;
+  margin-left: 30px; /* 왼쪽 여백 */
+  font-weight: 1000;
+  
+
+
+}
+
+
+.project-main-title {
+  font-size: 36px;
+  text-align: center;
+  color: #46315c;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.project-img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 0 20px 60px;
+}
+
+.project-img-section img {
+  width: 100%;
+  max-width: 1080px;
+  height: auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
